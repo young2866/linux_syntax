@@ -1,5 +1,5 @@
 if[-f ./first_file.txt]; then
-    ehco "Exist"
+    ehco "File Exist"
 else
-    echo "Does not exist"
+    echo "Does not Exist"
 fi
