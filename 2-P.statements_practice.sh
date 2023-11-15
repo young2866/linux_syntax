@@ -1,5 +1,7 @@
-if[-f ./first_file.txt]; then
-    ehco "File Exist"
+file_name="first_file.txt"
+
+if [ -f ./$file_name ]; then
+    echo "$file_name Exist";
 else
-    echo "Does not Exist"
+    echo "$file_name Does not Exist";
 fi
