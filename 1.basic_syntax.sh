@@ -47,3 +47,9 @@ mv test_dir Glooory/second_dir
 # cat처럼 파일을 출력하는 명령어
 # 상위 n행 조회 (tail은 하위 n행 조회)
 head -n
+#원격 호스트와의 터미널 세션 제공
+ssh
+#파일 전송
+scp
+#현재 서버에 연결된 네트워크 정보 출력
+netstat
